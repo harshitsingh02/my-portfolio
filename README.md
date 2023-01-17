@@ -10,5 +10,5 @@ All rights reserved
 
 <b>Mobile mode:-</b>
 
-<img align="center" width=180 height=250 alt="coding" src="./Readme-assets/Mobile.png"/>
+<img align="center" width=150 height=250 alt="coding" src="./Readme-assets/Mobile.png"/>
 
