@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harshit Singh</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <main>
+    <!-- Header and Navigation Bar -->
+    <header id="header">
+      <nav id="navigation">
+        <div class="container">
+          <div class="logo">
+            <img class="logo-img" src="./img/logo1.png" alt="" />
+          </div>
+
+          <div class="links">
+            <ul>
+              <li>
+                <a href="#header">Home</a>
+              </li>
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#skills">Skills</a>
+              </li>
+              <li>
+                <a href="#services">Services</a>
+              </li>
+              <li>
+                <a href="#portfolio">My Work</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+              <li>
+                <button style="font-weight: 800; font-size: medium;" class="all-btn" onclick="javascript:window.open('#', '_blank');">View CV</button>
+              </li>
+            </ul>
+          </div>
+          <div class="hamburger-menu">
+            <div class="bar"></div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- End of Header and Navigation Bar -->
+
+    <!-- Home background -->
+    <div class="home" id="home">
+      <div class="home-content">
+        <div class="text">
+          <div class="text-1">Hello, </div>
+          <div class="text-2">I'm <span class="input1" id="input1"></span></div>
+          <div class="text-3"><span id="inputt"></span></div>
+          <div class="text-4">From India</div>
+        </div>
+      </div>
+      <div class="home-photo">
+        <img src="./img/person.gif" alt="">
+      </div>
+      <button class="scroll-btm" id="scroll-btm"><a href="#about"><img data-title="Scroll Down"
+            src="./img/scrolldown.gif" alt=""></a>
+      </button>
+    </div>
+    <!--End of Home background -->
+
+    <!-- light Mode Button -->
+    <div class="myBtn-light">
+      <li><a onclick="lightMode()" id="myBtn" title="Light Mode"><i class="fa fa-circle-half-stroke"></i></a></li>
+    </div>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <h3 class="title" data-title="Who Am I">About me</h3>
+        </div>
+
+        <div class="section-body sec-2">
+          <div class="column-1">
+            <h3 class="title-sm">Hello, I'm Harshit Singh</h3>
+            <p class="text">
+              I am a Frontend web developer who has developed products for clients as a freelancer. I specialize in
+              building
+              applications specific to the Web designing needs. I have designed and developed many works related to
+              websites,
+              front-end web, react-based web, graphic design, and web development. I regularly write articles related to
+              Full Stack Web Development and I'm also interested in photography and sometime posts some photos in my
+              site.
+              I like to develop expertise in a number of areas over the course of my life and career.
+              <br><br>I currently work remotely with a selected freelance client base and are open for new
+              opportunities.
+              <br><br>You can read more about my biography, experience, skills, education and much more in the CV
+              attached in navbar.
+            </p>
+          </div>
+
+          <div class="column-2 image">
+            <img src="./img/shapes/points4.png" class="points" alt="" />
+            <div class="about-img">
+              <img src="./img/about.png" class="z-index" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of About Section -->
+
+    <!-- Skills Section -->
+    <section class="skills section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <h3 class="title" data-title="Skills">Languages and Tools</h3>
+        </div>
+        <div class="skill-details">
+          <div class="box">
+            <img src="./img/assets/html-5-240.png" alt="">
+            <div class="topic">HTML</div>
+          </div>
+          <div class="box">
+            <img src="./img/assets/css3-240.png" alt="">
+            <div class="topic">CSS</div>
+          </div>
+          <div class="box">
+            <img src="./img/assets/javascript-240.png" alt="">
+            <div class="topic">JavaScript</div>
+          </div>
+          <div class="box">
+            <img src="./img/assets/bootstrap-logo.png" alt="">
+            <div class="topic">Bootstrap</div>
+          </div>
+          <div class="box">
+            <img src="./img/assets/nodejs-240.png" alt="">
+            <div class="topic">Node JS</div>
+          </div>
+          <div class="box">
+            <img src="./img/assets/c++-240.png" alt="">
+            <div class="topic">C++</div>
+          </div>
+          <div class="box">
+            <img src="./img/assets/react-240.png" alt="">
+            <div class="topic">React</div>
+          </div>
+          <div class="box">
+            <img src="./img/assets/mysql-logo-240.png" alt="">
+            <div class="topic">MySQL</div>
+          </div>
+          <div class="box">
+            <img src="./img/assets/java-240.png" alt="">
+            <div class="topic">Java</div>
+          </div>
+          <div class="box">
+            <img src="./img/assets/git-240.png" alt="">
+            <div class="topic">Git</div>
+          </div>
+          <div class="box">
+            <img src="./img/assets/github-256.png" alt="">
+            <div class="topic">Github</div>
+          </div>
+          <div class="box">
+            <img src="./img/assets/mongodb-240.png" alt="">
+            <div class="topic">Mongo DB</div>
+          </div>
+          <div class="box">
+            <img src="./img/assets/visual-studio-code-2019-240.png" alt="">
+            <div class="topic">VS Code</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Skills -->
+
+    <!-- Services Section -->
+    <section class="services section" id="services">
+      <div class="container">
+        <div class="section-header">
+          <h3 class="title" data-title="What I Do">Services</h3>
+          <p class="text">
+            Here you will find about what I do and what I provide.
+          </p>
+        </div>
+
+        <div class="cards">
+          <div class="card-wrap">
+            <div class="card" data-card="Code">
+              <div class="card-content z-index">
+                <img src="./img/design-icon.png" class="icon" alt="" />
+                <h3 class="title-sm">I build & design stuff</h3>
+                <p class="text">
+                  Open source projects, web apps and experimentals.
+                </p>
+                <a href="#portfolio" class="btn small">See My Work</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-wrap">
+            <div class="card" data-card="Write">
+              <div class="card-content z-index">
+                <img src="./img/write-icon.png" class="icon" alt="" />
+                <h3 class="title-sm">I write, sometimes</h3>
+                <p class="text">
+                  About design, frontend dev, learning and life.
+                </p>
+                <a target="_blank" href="https://medium.com/@harshit143singh" class="btn small">Read Articles</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Services -->
+
+    <!-- Portfolio - My Recent works -->
+    <section class="portfolio section" id="portfolio">
+      <div class="container">
+        <div class="section-header">
+          <h3 class="title" data-title="Portfolio">My Recent Works</h3>
+        </div>
+      </div>
+    </section>
+    <section class="port-gallery">
+      <div class="gallery">
+
+        <ul class="controls">
+          <li class="buttons active" data-filter="all">All</li>
+          <li class="buttons" data-filter="web-design">Web Design</li>
+          <li class="buttons" data-filter="template">Templates</li>
+          <li class="buttons" data-filter="project">Projects</li>
+          <li class="buttons" data-filter="photography">Photography</li>
+        </ul>
+
+        <div class="image-container">
+          <!-- img-1 -->
+          <div class="img-container">
+            <div class="img-card">
+              <div class="images project">
+                <img src="./img/portfolio-assets/lap1.png" alt="">
+                <h2>Portfolio </h2>
+                <p>A Responsive single-page portfolio website made using HTML, CSS, and JS along with a little bit
+                  jQuery</p>
+                </img>
+                <br>
+                <div id="work-link" class="work-link">
+                  <a href="#">
+                    <span></span><span></span><span></span><span></span>Github <i class="fa-brands fa-github"></i></a>
+                  <a href="#">
+                    <span></span><span></span><span></span><span></span>Demo</a><br><br>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- img-2 -->
+          <div class="img-container">
+            <div class="img-card">
+              <div class="images project">
+                <img src="./img/portfolio-assets/lap3.png" alt="">
+                <h2>Dino-Dragon Game</h2>
+                <p>A simple dino game made by using JavaScript and CSS </p>
+                </img><br>
+                <div id="work-link" class="work-link">
+                  <a target="_blank" href="https://github.com/harshitsingh02/dino-game">
+                    <span></span><span></span><span></span><span></span>Github <i class="fa-brands fa-github"></i>
+                  </a><br><br>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- img-3 -->
+          <div class="img-container">
+            <div class="img-card">
+              <div class="images template">
+                <img src="./img/portfolio-assets/lap4.png" alt="">
+                <h2>Disney+ Hotstar</h2>
+                <p>A front-end clone of streaming platform made using NodeJS along with many animation features</p>
+                </img><br>
+                <div id="work-link" class="work-link">
+                  <a href="https://github.com/harshitsingh02/DisneyPlus-Hotstar-Clone">
+                    <span></span><span></span><span></span><span></span>Github <i class="fa-brands fa-github"></i></a>
+                  <a target="_blank" href="https://harshitsingh02.github.io/DisneyPlus-Hotstar-Clone/">
+                    <span></span><span></span><span></span><span></span>Demo</a><br><br>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- img-4 -->
+          <div class="img-container">
+            <div class="img-card">
+              <div class="images photography">
+                <img src="./img/portfolio-assets/pic1.jpg" alt="">
+                <h2>Rainy night</h2>
+                <p>Photography<br>Photo of a person on a rainy night.</p>
+                </img><br>
+                <div id="work-link" class="work-link">
+                  <a target="_blank" href="./img/portfolio-assets/pic1.jpg">
+                    <span></span><span></span><span></span><span></span>View</a><br><br>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- img-5 -->
+          <div class="img-container">
+            <div class="img-card">
+              <div class="images web-design">
+                <img src="./img/portfolio-assets/lap5.png" alt="">
+                <h2>Zomato Page</h2>
+                <p>A landing page of Zomato food discovery service using only HTML and CSS</p>
+                </img><br>
+                <div id="work-link" class="work-link">
+                  <a target="_blank" href="https://github.com/harshitsingh02/zomato-page">
+                    <span></span><span></span><span></span><span></span>Github  <i class="fa-brands fa-github"></i></a><br><br>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- img-6 -->
+          <div class="img-container">
+            <div class="img-card">
+              <div class="images photography">
+                <img src="./img/portfolio-assets/pic2.jpg" alt="">
+                <h2>Nightfall View</h2>
+                <p>Photography<br>A photo capturing nightfall in the roadside Coming from nowhere and the day is gone
+                  somewhere.</p>
+                </img><br>
+                <div id="work-link" class="work-link">
+                  <a target="_blank" href="./img/portfolio-assets/pic2.jpg">
+                    <span></span><span></span><span></span><span></span>View</a><br><br>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- img-7 -->
+          <div class="img-container">
+            <div class="img-card">
+              <div class="images template">
+                <img src="./img/portfolio-assets/lap2.png" alt="">
+                <h2>Portfolio Design</h2>
+                <p>A simple portfolio web-design by using HTML and CSS with Go to top button.</p>
+                </img><br>
+                <div id="work-link" class="work-link">
+                  <a target="_blank" href="https://github.com/harshitsingh02/Portfolio-type-1">
+                    <span></span><span></span><span></span><span></span>Github <i class="fa-brands fa-github"></i></a>
+                  <a target="_blank" href="https://iam4u.pages.dev/">
+                    <span></span><span></span><span></span><span></span>Demo</a><br><br>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- img-8 -->
+          <div class="img-container">
+            <div class="img-card">
+              <div class="images web-design">
+                <img src="./img/portfolio-assets/lap6.png" alt="">
+                <h2>Login Page Design</h2>
+                <p>Login page design using Bootstrap, HTML & CSS</p>
+                </img><br>
+                <div id="work-link" class="work-link">
+                  <a target="_blank" href="https://github.com/harshitsingh02/zomato-page">
+                    <span></span><span></span><span></span><span></span>Github <i class="fa-brands fa-github"></i></a>
+                  <a target="_blank" href="https://login-page-hs.netlify.app/">
+                    <span></span><span></span><span></span><span></span>Demo</a><br><br>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- img-9 -->
+          <div class="img-container">
+            <div class="img-card">
+              <div class="images photography">
+                <img src="./img/portfolio-assets/pic3.jpg" alt="">
+                <h2>Mountain snowfall</h2>
+                <p>Photography<br>A beautifull view of snow in Manali's mountains.</p>
+                </img><br>
+                <div id="work-link" class="work-link">
+                  <a target="_blank" href="./img/portfolio-assets/pic3.jpg">
+                    <span></span><span></span><span></span><span></span>View</a><br><br>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- End of Portfolio - My Recent work -->
+
+    <!-- Social tab -->
+    <div id="social-icons">
+      <div class="text-right">
+        <ul class="social-icons">
+          <li><a href="https://www.facebook.com/harshit20s/" target="_blank" title="Facebook"><i
+                class="fa-brands fa-facebook"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/harshit-singh-665273178/" target="_blank" title="Linkedin"><i
+                class="fa-brands fa-linkedin"></i></a></li>
+          <li><a href="https://www.instagram.com/harshit20._.03/" target="_blank" title="Instagram"><i
+                class="fa-brands fa-instagram"></i></a></li>
+          <li><a href="https://github.com/harshitsingh02" target="_blank" title="Github"><i
+                class="fa-brands fa-github"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- End of Social -->
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="contact-box">
+          <div class="contact-info">
+            <h3 class="title">Contact Me!</h3>
+            <p class="text" id="contact-text">
+              I am always up for Job opportunity or project collaboration. In case you are looking for someone to work
+              with, then do contact me!
+            </p>
+            <div class="information-wrap">
+              <div class="information">
+                <div class="contact-icon">
+                  <i class="fas fa-envelope "></i>
+                </div>
+                <p class="info-text">harshit143singh@gmail.com</p>
+              </div>
+              <div class="information">
+                <div class="contact-icon">
+                  <i class="fas fa-paper-plane"></i>
+                </div>
+                <a class="info-text" target="_blank" href="https://t.me/mrharshitsingh"
+                  style="color: black;">t.me/mrharshitsingh</a>
+              </div>
+            </div>
+          </div>
+          <div class="contact-form">
+            <h3 class="title">Get in Touch with me</h3>
+            <form name="submit-to-google-sheet">
+              <div class="row">
+                <input type="text" name="Name" class="contact-input" placeholder="Name" />
+              </div>
+              <div class="row">
+                <input type="text" name="Phone" class="contact-input" placeholder="Phone" />
+                <input type="email" name="Email" class="contact-input" placeholder="Email" />
+              </div>
+              <div class="row">
+                <textarea name="Message" class="contact-input textarea" placeholder="Message"></textarea>
+              </div>
+              <button type="submit" class="btn sbtn">Send</button>
+              <!-- <a href="#" class="btn">Send</a> -->
+            </form>
+            <span id="smsg"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End of Contact Section -->
+  </main>
+
+  <!-- Go to Top button -->
+  <div class="scrollTop" title="Go to Top" onclick="scrollToTop();">
+    <i class="fa fa-arrow-up"></i>
+  </div>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="container">
+      <div class="bottom-footer">
+        <div class="followme">
+          <h3>Feel free to connect with me on</h3>
+          <span class="footer-line"></span>
+          <div class="social-media">
+            <a href="https://www.facebook.com/harshit20s/" target="_blank" title="Facebook">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/harshit-singh-665273178/" target="_blank" title="Linkedin">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://www.instagram.com/harshit20._.03/" target="_blank" title="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://github.com/harshitsingh02" target="_blank" title="Github">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--End Footer Section -->
+  <!-- Copyright bar -->
+  <div class="copyright">
+    <p>Copyright © 2023 HS . All rights reserved. Designed and Developed By Harshit Singh.</p>
+  </div>
+  <!--End Copyright bar -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="./js/app.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <!-- jquery cdn link  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- magnific popup js cdn link  -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script> -->
+
+
+  <script>
+    var typed = new Typed('#inputt', {
+      strings: [
+        "Frontend Web Developer", "Web Designer", "Open source enthusiast"
+      ],
+      startDelay: 100,
+      typeSpeed: 50,
+      backSpeed: 70,
+      loop: true
+    });
+    var typed = new Typed('#input1', {
+      strings: [
+        "Harshit Singh"
+      ],
+      startDelay: 500,
+      typeSpeed: 100,
+      loop: false
+    });
+  </script>
+
+</body>
+
+</html>
